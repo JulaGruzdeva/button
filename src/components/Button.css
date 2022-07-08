@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+
+
+.buttonFill {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 13px;
+    background: #71AAFF;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttonFill:hover {
+    background: #5F9FFF;
+
+}
+
+.buttonStroke {
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 13px;
+    background: none;
+    border: 2px solid #71AAFF;
+    color: #71AAFF;
+    cursor: pointer;
+}
+
+.buttonStroke:hover {
+    background: #E8F1FF;
+}
+
+.buttonGhost {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 13px;
+    background: transparent;
+    color: #71AAFF;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonGhost:hover {
+    background: #ECECEC;
+}
